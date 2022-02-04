@@ -1,0 +1,24 @@
+.header__nav {
+    position: absolute;
+    padding-top: 23px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 2*max(6.4vw, 15px));
+}
+
+.header__logo-link {
+    margin-right: 108px;
+    display: flex;
+    max-height: 109px;
+}
+
+.header__login-link {
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header__login-link-name {
+    margin-left: 12px;
+    border-bottom: 1px solid #fff;
+}

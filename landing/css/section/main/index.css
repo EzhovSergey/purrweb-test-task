@@ -1,0 +1,23 @@
+@import "./intro.css";
+@import "./project-mission.css";
+@import "./id-scanner.css";
+@import "./integration.css";
+@import "./qr-code.css";
+@import "./generate-qr-code.css";
+@import "./ordering.css";
+@import "./preview-loading.css";
+@import "./get-in-touch.css";
+
+.section-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.section-subtitle {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 25px;
+}

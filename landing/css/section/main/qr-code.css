@@ -1,0 +1,67 @@
+.qr-code {
+    margin-top: 223px;
+    display: grid;
+    grid-template-columns: 57% 43%;
+	line-height: 0;
+    padding-top: 25px;
+}
+
+.qr-code > * {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.qr-code-wrap {
+    background-image: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+        url('../../../img/marcela-laskoski-unsplash.svg');
+    background-position: top right;
+    box-sizing: content-box;
+    padding-left: 5.6vw;
+}
+
+.qr-code-wrap-text {
+    margin-right: 0;
+    margin-top: 30vw;
+    width: 315px;
+}
+
+.qr-code-wrap-picture {
+    background-image: url('../../../img/ash-edmonds-fsI-unsplash.svg'); 
+    background-position: top left;
+}
+
+.qr-code-wrap-nav {
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.qr-code-wrap-nav__link {
+    background-color: #000;
+}
+
+.qr-code-wrap-nav__link:first-child {
+    margin-right: 27px;
+}
+
+.qr-code-wrap-picture {
+    position: relative;
+}
+
+.qr-code-wrap-picture__item {
+    position: absolute;
+}
+
+.qr-code-wrap-picture__item:first-child {
+    left: 62%;
+}
+
+.qr-code-wrap-picture__item:nth-child(2) {
+    left: -23%;
+    top: 29%;
+}
+
+.qr-code-wrap-picture__item:nth-child(3) {
+    left: 40%;
+    top: 65%;
+}

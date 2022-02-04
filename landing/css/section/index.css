@@ -1,0 +1,15 @@
+@import "./header/index.css";
+@import "./main/index.css";
+@import "./footer/index.css";
+
+.wrapper {
+    margin-left: max(6.4vw, 15px);
+    margin-right: max(6.4vw, 15px);
+}
+
+.gradient {
+    position: absolute;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    filter: blur(150px);
+    transform: rotate(5.78deg);
+}

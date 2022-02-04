@@ -1,0 +1,65 @@
+.generate-qr-code {
+    position: relative;
+    padding-top: 450px;
+}
+
+.generate-qr-code-gradient {
+    position: absolute;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.15;
+    filter: blur(311.569px);
+    border-radius: 476.034px;
+    transform: rotate(-0.55deg);
+    width: 73vw;
+    height: 73vw;
+    max-height: 961px;
+    top: -40%;
+}
+
+.generate-qr-code-wrap-picture {
+    position: relative;
+    background-image: url('../../../img/background-notab-color.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.generate-qr-code-wrap-picture__caption {
+    position: absolute;
+    right: 20%;
+    top: 35%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.generate-qr-code-wrap-picture__caption-arrow {
+    position: relative;
+    left: -70px;
+    width: 80.29px;
+    height: 70.48px;
+    background-image: url('../../../img/arrow_1.svg');
+    background-repeat: no-repeat;
+}
+
+.generate-qr-code-text {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generate-qr-code-text__title {
+    margin-right: 15px;
+}
+
+.generate-qr-code-text__title {
+    max-width: 381px;
+}
+
+.generate-qr-code-text__subtitle {
+    max-width: 310px;
+}

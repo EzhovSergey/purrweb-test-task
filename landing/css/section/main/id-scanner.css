@@ -1,0 +1,25 @@
+.id-scanner {
+    margin-top: 469px;
+    background: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+    top center /100% url('../../../img/louis-hansel-shotsoflouis-_6ZqQc02NYc-unsplash.svg'); 
+    background-repeat: no-repeat;
+}
+
+.id-scanner-wrap {
+    padding-top: 25vw;
+    display: grid;
+    grid-template-columns: max-content max-content 1fr;
+    column-gap: 4%;
+}
+
+.id-scanner-wrap-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.id-scanner-wrap-content-text__subtitle {
+    width: 315px;
+}

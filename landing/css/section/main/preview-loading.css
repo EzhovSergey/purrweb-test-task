@@ -1,0 +1,12 @@
+.wrap-preview-loading {
+    display: flex;
+    justify-content: center;
+    padding-top: 379px;
+    padding-bottom: 298px;
+
+    background-image: linear-gradient(360deg, #000000 6.8%, rgba(0, 0, 0, 0) 51.62%, #000000 97.38%),
+        url('../../../img/background-notab-black.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}

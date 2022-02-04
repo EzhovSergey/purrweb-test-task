@@ -1,0 +1,88 @@
+.intro {
+    padding-top: 150px;
+    background: top right / 67% url('../../../img/gradient/Vector_3.png'),
+        top 350px left 1vw / 325px url('../../../img/gradient/Ellipse_93.png');
+    background-repeat: no-repeat;
+}
+
+.intro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 75px;
+    column-gap: 15px;
+}
+
+.intro-text {
+    margin-top: 125px;
+}
+
+.intro-title__text {
+    font-size: 64px;
+    line-height: 70px;
+    max-width: 650px;
+}
+
+.intro-subtitle {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 88px;
+}
+
+.intro-subtitle-box {
+    width: 71px;
+    height: 120px;
+    margin-right: 31px;
+    position: relative;
+}
+
+.intro-subtitle-line__line {
+    position: absolute;
+    bottom: 60px;
+    left: -30px;
+    display: block;
+    height: 4px;
+    width: 140px;
+    background-color: #fff;
+    transform: rotate(120.61deg);
+}
+
+.intro-subtitle__text {
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 380px;
+}
+
+.intro-phone-image {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-phone-image__img {
+    max-width: 335px;
+    max-height: 669px;
+}
+
+.intro-footer-text {
+    font-size: 35px;
+    line-height: 70px;
+}
+
+.intro-footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-footer-nav__link {
+    background-color: #000;
+}
+
+.intro-footer-nav__link:first-child {
+    margin-right: 27px;
+}
+
+
+
+/* 
+    flex-wrap: wrap; - для переноса контента на новую строку если он выезжает за границу родителя
+*/
